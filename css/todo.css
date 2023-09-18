@@ -1,0 +1,11 @@
+body {
+    /* background: rgb(194,195,196);
+    background: linear-gradient(90deg, rgba(194,195,196,1) 0%, rgba(200,205,207,1) 0%, rgba(74,74,75,1) 99%, rgba(0,0,0,1) 99%); */
+    background: gray;
+    margin: 0px;
+    padding: 0px;
+}
+
+#badge{
+    background-color: rgba(243, 255, 142, 1)
+}

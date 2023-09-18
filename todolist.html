@@ -1,0 +1,71 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>SMALL TO DO LİST PROJECT</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="css/todo.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="row mt-5">
+            <div class="col-md-6 offset-3">
+                <div class=" pt-3">
+                    <H1 class="text-center mt-0 text-black text-decoration-underline fw-bold">TO-DO LIST</H1>
+                    <h3 class="text-center mt-5">ENTER TO-DO</h3>
+                    <div class="mb-3 mx-5 mt-3">
+                        <form method="post" id="addform">
+                            <input type="text" class="form-control" id="inputtodo" placeholder="Enter your To Do">
+                            <button type="submit" class="btn btn-success mt-3 py-1 px-5" id="ibutton">Add
+                                To Do</button>
+                        </form>
+                        <div id="alert">
+                            <!-- <div class="alert alert-success mt-3" role="alert">
+                                A simple success alert—check it out!
+                        </div> -->
+                        </div>
+                        <br>
+                        <hr>
+                    </div>
+                    <h3 class="text-center mt-4">YOUR TO DO'S</h3>
+                    <div class="mb-3 mx-5 mt-3" id="yourtodos">
+                        <form method="post" id="search">
+                            <input type="text" class="form-control" id="searchtodo" placeholder="Search your To Do">
+                        </form>
+                        <br>
+                        <hr>
+                        <ul class="list-group" id="toplist">
+                            <!-- <li class="list-group-item d-flex justify-content-between">An item
+                                <a href="#" >
+                                    <i class="fa fa-remove text-warning"></i>
+                                </a>
+                            </li> -->
+
+                        </ul>
+                        <a href="#"><button class="btn btn-danger mt-3 mb-3  py-1 px-5" id="deletebutton">Delete
+                                All</button></a>
+
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+    <script src="todo.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
